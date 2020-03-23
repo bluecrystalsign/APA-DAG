@@ -6,9 +6,7 @@
 ##     Recursively compute a topological ordering of G−{v}
 ##     and append this order after v
 
-++++++++++++++++++++++++++++++
-+++++++++TESTE DAG +++++++++++
-++++++++++++++++++++++++++++++
+# TEST SIMLPES
 
 Grafo [
 	vertices=[Vertice [id=3, nome=v3, posicao=0], Vertice [id=1, nome=v1, posicao=1], Vertice [id=2, nome=v2, posicao=2], Vertice [id=6, nome=v6, posicao=3], Vertice [id=5, nome=v5, posicao=4], Vertice [id=4, nome=v4, posicao=5]],
@@ -204,9 +202,8 @@ buscaRaiz ------------------------------
 
 	+ Apagando arestas que saem da RAIZ para outros vérticees
 Topological Ordering: [Vertice [id=1, nome=v1, posicao=1], Vertice [id=2, nome=v2, posicao=2], Vertice [id=5, nome=v5, posicao=4], Vertice [id=6, nome=v6, posicao=3], Vertice [id=4, nome=v4, posicao=5], Vertice [id=3, nome=v3, posicao=0]]
-++++++++++++++++++++++++++++++
-+++++++++TESTE LIVRO +++++++++
-++++++++++++++++++++++++++++++
+
+# TESTE com exemplo do livro (pag 100)
 
 Grafo [
 	vertices=[Vertice [id=3, nome=v3, posicao=0], Vertice [id=1, nome=v1, posicao=1], Vertice [id=2, nome=v2, posicao=2], Vertice [id=6, nome=v6, posicao=3], Vertice [id=5, nome=v5, posicao=4], Vertice [id=4, nome=v4, posicao=5], Vertice [id=7, nome=v7, posicao=6]],
@@ -517,9 +514,8 @@ buscaRaiz ------------------------------
 
 	+ Apagando arestas que saem da RAIZ para outros vérticees
 Topological Ordering: [Vertice [id=1, nome=v1, posicao=1], Vertice [id=2, nome=v2, posicao=2], Vertice [id=3, nome=v3, posicao=0], Vertice [id=4, nome=v4, posicao=5], Vertice [id=5, nome=v5, posicao=4], Vertice [id=6, nome=v6, posicao=3], Vertice [id=7, nome=v7, posicao=6]]
-++++++++++++++++++++++++++++++
-++++++TESTE não é DAG ++++++++
-++++++++++++++++++++++++++++++
+
+# TESTE que não é DAG
 
 Grafo [
 	vertices=[Vertice [id=3, nome=v3, posicao=0], Vertice [id=1, nome=v1, posicao=1], Vertice [id=2, nome=v2, posicao=2], Vertice [id=6, nome=v6, posicao=3], Vertice [id=5, nome=v5, posicao=4], Vertice [id=4, nome=v4, posicao=5]],

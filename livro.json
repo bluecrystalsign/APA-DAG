@@ -1,0 +1,25 @@
+{
+    "vertices": [
+    	{"id": 3, "nome": "v3"},
+    	{"id": 1, "nome": "v1"},
+    	{"id": 2, "nome": "v2"},
+    	{"id": 6, "nome": "v6"},
+    	{"id": 5, "nome": "v5"},
+    	{"id": 4, "nome": "v4"},
+    	{"id": 7, "nome": "v7"}
+    ],
+    "arestas": [
+    	{"de": 1, "para": 4},
+    	{"de": 1, "para": 5},
+    	{"de": 1, "para": 7},
+    	{"de": 2, "para": 3},
+    	{"de": 2, "para": 5},
+    	{"de": 2, "para": 6},
+    	{"de": 3, "para": 4},
+    	{"de": 3, "para": 5},
+    	{"de": 4, "para": 5},
+    	{"de": 5, "para": 6},
+    	{"de": 5, "para": 7},
+    	{"de": 6, "para": 7},
+    ]
+}

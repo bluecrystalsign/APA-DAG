@@ -6,7 +6,7 @@
 ##     Recursively compute a topological ordering of G−{v}
 ##     and append this order after v
 
-# TEST SIMLPES
+# TESTE simples
 
 Grafo [
 	vertices=[Vertice [id=3, nome=v3, posicao=0], Vertice [id=1, nome=v1, posicao=1], Vertice [id=2, nome=v2, posicao=2], Vertice [id=6, nome=v6, posicao=3], Vertice [id=5, nome=v5, posicao=4], Vertice [id=4, nome=v4, posicao=5]],
